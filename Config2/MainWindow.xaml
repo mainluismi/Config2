@@ -11,11 +11,17 @@
         <TextBlock Grid.Row="0" Grid.Column="1" Text="Adorno Luismi 1:" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,204,175,0" RenderTransformOrigin="0.316,-1.245"/>
         <TextBlock x:Name="adornoLuismi1" Grid.Row="0" Text="Hola1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="314,204,0,0"/>
 
-        <Button x:Name="BConf2Luismi" Grid.Column="0" Content="Cambio Luismi1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="69,66,0,0" Click="BConf2Luismi_Click"/>
+        <Button x:Name="BConf2Luismi" Grid.Column="0" Content="Disminuir texto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="69,66,0,0" Click="BConf2Luismi_Click"/>
 
         <TextBlock Grid.Column="1" Text="Adorno Luismi 2:" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,76,175,0"/>
         <TextBlock x:Name="adornoLuismi2" Text="Hola2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="314,68,0,0"/>
 
         <Button x:Name="BConf2Luismi1" Grid.Column="0" Content="Cambio Luismi2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="69,0,0,0" Click="BConf2Luismi1_Click"/>
+
+        <!-- Nuevo botón para cambiar el texto a "Hola" -->
+        <Button x:Name="BConf2LuismiHola" Grid.Column="0" Content="Cambio a Hola" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="69,0,0,0" Click="BConf2LuismiHola_Click"/>
+
+        <!-- Nuevo botón para aumentar el tamaño de la fuente de adornoLuismi2 -->
+        <Button x:Name="BConf2LuismiAumentar" Grid.Column="0" Content="Aumentar texto" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="69,0,0,0" Click="BConf2LuismiAumentar_Click"/>
     </Grid>
 </Window>
